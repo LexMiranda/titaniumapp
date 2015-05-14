@@ -2,24 +2,19 @@
 	<Window class="container" >
 		<View class="content" layout="vertical">
 			
-			<View class="tool_bar">
-				<Menu id="togleMenu" platform="android">
-					<MenuItem id="item1"
-						title="Item 1"
-						onClick="item"
-						showAsAction="Ti.Android.SHOW_AS_ACTION_IF_ROOM" />
-					<MenuItem id="item2"
-						title="Item 2"
-						onClick="mainMenu"
-						showAsAction="Ti.Android.SHOW_AS_ACTION_COLLAPSE_ACTION_VIEW" />
-				
+			<ActionBar id="actionbar" platform="android"  class="tool_bar" >
+				<Menu>
+					<MenuItem id="editItem" title="Edit" onClick="editInfo" />
+					<MenuItem id="viewItem" title="View" onClick="viewInfo" />
 				</Menu>
-			</View>
+			</ActionBar>
 			
 			<View class="subtitle"><Label>Marque sua consulta</Label></View>
 			<View layout="vertical" class="bodyContainer">
-				<ImageView class="especialidade" onClick="showEspecialidade"><Label>Especialidades</Label> </ImageView>
-				<ImageView class="parteCorpo" image="/android/appicon.png"></ImageView>
+				<ImageView class="especialidade" onClick="showEspecialidade"> </ImageView>
+				<Label>Especialidades</Label>
+				<ImageView class="parteCorpo"></ImageView>
+				<Label>Partes do corpo</Label>
 			</View>
 		</View>
 		

@@ -9,13 +9,26 @@
 	top: 0
 }
 
-".tool_bar":{
-	backgroundColor: 'blue',
-	width: Titanium.UI.FILL,
-	height: 56,
-	top: 0,
-	left: 0
+"MenuItem":{
+	showAsAction: Titanium.Android.SHOW_AS_ACTION_ALWAYS
 }
+"#item1":{
+	icon: Ti.Android.R.drawable.ic_menu_edit
+}
+"#item2": {
+    icon: Ti.Android.R.drawable.ic_menu_view
+}
+"#actionbar": {
+    icon: "/appicon.png"
+}
+
+".tool_bar":{
+	width: Titanium.UI.FILL,
+	backgroundColor: 'blue',
+	height: 56,
+	top: 0
+}
+
 ".subtitle": {
 	left: 0,
 	backgroundColor: 'orange',
