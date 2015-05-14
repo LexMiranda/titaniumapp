@@ -31,8 +31,8 @@
 	left: 72
 }
 ".arrow_right":{
+	backgroundImage: "/ic_chevron_right_grey600_36dp.png",
 	height: 36,
 	width: 36,
-	backgroundColor: 'red',
 	right: 16
 }

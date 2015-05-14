@@ -18,7 +18,7 @@
 			
 			<View class="subtitle"><Label>Marque sua consulta</Label></View>
 			<View layout="vertical" class="bodyContainer">
-				<ImageView class="especialidade" onClick="showEspecialidade"> </ImageView>
+				<ImageView class="especialidade" onClick="showEspecialidade"><Label>Especialidades</Label> </ImageView>
 				<ImageView class="parteCorpo" image="/android/appicon.png"></ImageView>
 			</View>
 		</View>
