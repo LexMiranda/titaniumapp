@@ -1,0 +1,48 @@
+".container": {
+	backgroundColor:"white",
+	top: 0
+}
+
+".header":{
+	width: Titanium.UI.FILL,
+	height: '80dp',
+	top: 0
+}
+
+".menubar":{
+	backgroundColor: 'blue',
+	width: Titanium.UI.FILL,
+	height: '40dp',
+	top: 0
+}
+"Label": {
+	backgroundColor: 'gray',
+	width: Ti.UI.FILL,
+	height: 40,
+	color: "red",
+	top: 5,
+	left: 16,
+	right: 16
+}
+
+"#label": {
+	font: {
+		fontSize: 12
+	}
+}
+
+".especialidade": {
+	backgroundColor: 'green',
+	width: '150',
+	height: '150dp',
+	left: 0,
+	top: 10
+}
+".parteCorpo": {
+	backgroundColor: 'yellow',
+	width: '150',
+	height: '150dp',
+	left: 0,
+	top: 10
+}
+

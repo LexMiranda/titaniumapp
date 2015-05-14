@@ -1,0 +1,22 @@
+<Alloy>
+	<Window class="container" layout="vertical">
+		<View class="header" layout="vertical">
+			
+			<View class="menubar">
+				<Menu id="togleMenu" platform="android">
+					<MenuItem class="addJanela"
+						title="Menu"
+						onClick="addJanela"
+						showAsAction="Ti.Android.SHOW_AS_ACTION_COLLAPSE_ACTION_VIEW" />
+				
+				</Menu>
+			</View>
+			
+			<View><Label>Marque sua consulta</Label></View>
+		</View>
+		<View layout="vertical" class="bodyContainer">
+			<ImageView class="especialidade" image=../android/appicon.png"> </ImageView>
+			<ImageView class="parteCorpo" image="android/appicon.png"></ImageView>
+		</View>
+	</Window>
+</Alloy>
