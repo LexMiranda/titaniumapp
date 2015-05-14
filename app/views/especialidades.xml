@@ -1,0 +1,54 @@
+<Alloy>
+	<Window class="container" layout="vertical">
+		<View class="tool_bar" layout="horizontal">
+			<ImageView class="iconeLinhaTabela"></ImageView> >
+			<Label class="titulo">Especialidades</Label>	
+		</View>
+		<TableView>
+			<TableViewRow class="linha">
+				<ImageView class="iconeLinhaTabela"></ImageView> >
+				<Label class="textoLinhaTabela">Lorem Lorem</Label>
+				<ImageView class="arrow_right"></ImageView>
+			</TableViewRow>
+			<TableViewRow class="linha">
+				<ImageView class="iconeLinhaTabela"></ImageView> >
+				<Label class="textoLinhaTabela">Lorem Lorem</Label>
+				<ImageView class="arrow_right"></ImageView>
+			</TableViewRow>
+			<TableViewRow class="linha">
+				<ImageView class="iconeLinhaTabela"></ImageView> >
+				<Label class="textoLinhaTabela">Lorem Lorem</Label>
+				<ImageView class="arrow_right"></ImageView>
+			</TableViewRow>
+			<TableViewRow class="linha">
+				<ImageView class="iconeLinhaTabela"></ImageView> >
+				<Label class="textoLinhaTabela">Lorem Lorem</Label>
+				<ImageView class="arrow_right"></ImageView>
+			</TableViewRow>
+			<TableViewRow class="linha">
+				<ImageView class="iconeLinhaTabela"></ImageView> >
+				<Label class="textoLinhaTabela">Lorem Lorem</Label>
+				<ImageView class="arrow_right"></ImageView>
+			</TableViewRow>
+			<TableViewRow class="linha">
+				<ImageView class="iconeLinhaTabela"></ImageView> >
+				<Label class="textoLinhaTabela">Lorem Lorem</Label>
+				<ImageView class="arrow_right"></ImageView>
+			</TableViewRow>
+			<TableViewRow class="linha">
+				<ImageView class="iconeLinhaTabela"></ImageView> >
+				<Label class="textoLinhaTabela">Lorem Lorem</Label>
+				<ImageView class="arrow_right"></ImageView>
+			</TableViewRow>
+			<TableViewRow class="linha">
+				<ImageView class="iconeLinhaTabela"></ImageView> >
+				<Label class="textoLinhaTabela">Lorem Lorem</Label>
+				<ImageView class="arrow_right"></ImageView>
+			</TableViewRow>
+			
+			
+			
+			
+		</TableView>
+	</Window>
+</Alloy>

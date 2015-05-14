@@ -1,0 +1,38 @@
+
+".container" : {
+  
+}
+".tool_bar":{
+	width: Titanium.UI.FILL,
+	backgroundColor: 'blue',
+	height: 56,
+	top: 0
+}
+".titulo":{
+	left: 56
+}
+".linha":{
+	height: 72,
+	width: Titanium.UI.FILL
+}
+".content":{
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	top: 0
+}
+".iconeLinhaTabela":{
+	left: 16,
+	height: 36,
+	width: 36,
+	backgroundColor: 'green'
+	
+}
+".textoLinhaTabela":{
+	left: 72
+}
+".arrow_right":{
+	height: 36,
+	width: 36,
+	backgroundColor: 'red',
+	right: 16
+}
